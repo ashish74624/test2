@@ -1,17 +1,11 @@
-import './globals.css'
 import type { Metadata } from 'next'
-import {Raleway} from 'next/font/google'
+import './globals.css'
+
 
 export const metadata: Metadata = {
   title: 'Ashish Kumar',
-  description: 'My Portfolio Website',
+  description: 'This is my portfolio website',
 }
-
-const rlw = Raleway({
-  weight:"400",
-  subsets:['cyrillic']
-})
-
 
 export default function RootLayout({
   children,
@@ -20,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${rlw.className}`}>{children}</body>
+      <body className='dark'>{children}</body>
     </html>
   )
 }

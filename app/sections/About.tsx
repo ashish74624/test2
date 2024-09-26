@@ -1,6 +1,6 @@
 import React from 'react'
-import { LinkPreview } from '@/Components/ui/link-preview';
-import Heading from '@/Components/Heading';
+import { LinkPreview } from '@/components/ui/link-preview';
+import Heading from '@/components/Heading';
 
 export default function About() {
     return (

@@ -1,5 +1,5 @@
 "use client"
-import Heading from '@/Components/Heading';
+import Heading from '@/components/Heading';
 import Github from '@/Icons/Github';
 import Linkedin from '@/Icons/Linkedin';
 import Mail from '@/Icons/Mail';

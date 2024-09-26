@@ -2,10 +2,10 @@
 
 import { motion } from "framer-motion";
 import React from "react";
-import { AuroraBackground } from "@/Components/ui/aurora-background";
+import { AuroraBackground } from "@/components/ui/aurora-background";
 import About from "./sections/About";
 import Project from "./sections/Project";
-import Button from "@/Components/Button";
+import Button from "@/components/Button";
 import Contact from "./sections/Contact";
 
 export default function Home() {

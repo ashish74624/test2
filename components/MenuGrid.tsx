@@ -1,6 +1,6 @@
 import { cn } from "@/utils/cn";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "@/Components/ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -10,7 +10,7 @@ import {
   IconSignature,
   IconTableColumn,
 } from "@tabler/icons-react";
-import HoverCard from "@/Components/HoverCard";
+import HoverCard from "@/components/HoverCard";
 import { Lora } from 'next/font/google'
 
 const lora = Lora({

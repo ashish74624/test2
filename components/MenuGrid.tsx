@@ -14,26 +14,26 @@ import HoverCard from "@/Components/HoverCard";
 import { Lora } from 'next/font/google'
 
 const lora = Lora({
-    subsets:['cyrillic'],
-    weight:'400'
+  subsets: ['cyrillic'],
+  weight: '400'
 })
 
 
 export default function Menu() {
   return (
-      <BentoGrid className="max-w-4xl  mx-auto pb-10 ">
-        {items.map((item, i) => (
-          <BentoGridItem
-            key={i}
-            title={item.title}
-            description={item.description}
-            header={item.header}
-            icon={item.icon}
-            className={i === 3 || i === 6 ? "md:col-span-2" : ""}
-          />
-        ))}
-      </BentoGrid>
-    
+    <BentoGrid className="max-w-4xl  mx-auto pb-10 ">
+      {items.map((item, i) => (
+        <BentoGridItem
+          key={i}
+          title={item.title}
+          description={item.description}
+          header={item.header}
+          icon={item.icon}
+          className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+        />
+      ))}
+    </BentoGrid>
+
   );
 }
 const Skeleton = () => (
@@ -66,7 +66,7 @@ const items = [
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    
+
     title: "Student Details",
     description: "Join the quest for understanding and enlightenment.",
     header: <HoverCard link={'/studentData'} src={'/5.jpg'} />,
